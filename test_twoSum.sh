@@ -20,7 +20,7 @@ answers=(
 )
 
 # Get the number of test cases
-num_cases=3
+num_cases=${#nums_list[@]}
 pass_count=0
 
 # Loop through each test case
